@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  height: 100vh;
+}
+.AppBody {
+  border: 3px dotted #d1d6d6;
+  width: 700px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.AppBody.active {
+  border: 3px solid rgb(64, 64, 214);
+}
+.icon {
+  color: rgb(52, 153, 52);
+  font-size: 100px;
+}
+.AppBody h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
+.AppBody span {
+  font-size: 25px;
+  font-size: 300;
+}
+.AppBody button {
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: rgb(52, 153, 52);
+  border-radius: 5px;
+  cursor: pointer;
+}
